@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    header{
+        width: 100%;
+        height: 10%;
+        background-color: black;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+        header a{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            font-size: 15pt;
+        }
+    .rest{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+        .rest1{
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+            .text{
+                width: 70%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items:center;
+                flex-wrap: wrap;
+            }
+                .titulo{
+                    width: 100%;
+                    height: 20%;
+                    font-size: 18pt;
+                    margin-bottom: 2%;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                .text2{
+                    width: 100%;
+                    height: 75%;
+                    font-size: 13pt;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            .img img {
+                width: 65%;
+                height: 100%;
+            }
