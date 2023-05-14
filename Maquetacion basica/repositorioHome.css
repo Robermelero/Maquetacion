@@ -36,7 +36,15 @@ main{
             color: white;
             text-decoration: none;
             font-size: 14pt;
-    }
+        }
+        header a:hover{
+            background-color: blue;
+            transform: scale(1.3);
+        }
+        .button:hover{
+            background-color: blue;
+            transform: scale(1.3);
+        }
     section{
         width: 100%;
         height: 80%;

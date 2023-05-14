@@ -52,23 +52,36 @@ main{
         
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
     }
-    .descript{
-        width: 50%;
-        height: 80%;
-        font-size: 15pt;
-        color: white;
-    }
-    .foto{
-        width: 20%;
-        height: 80%;
-    }
-        img{
-          max-width: 100%;  
-          max-width: 100%;
-          max-height: 130%;
+        .sec{
+            width: 30%;
+            height: 75%;
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .sec1{
+            width: 30%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .hello{
+            display: flex;
+            font-size: 20pt;
+            color: white;
+        }
+        .hello:hover{
+            transform: scale(1.3);
         }
     .social{
         width: 100%;
