@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+main{
+    width: 100vw;
+    height: 400vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(7, 7, 197);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 70px;
+        
+    }
+        .logo{
+            width: 15%;
+            background-color: rgb(7, 7, 197);
+        }
+        
+        header a{
+            color: white;
+            text-decoration: none;
+            font-size: 17pt;
+        }
+        .vacio0{
+            width: 10%;
+        }
+    section{
+        width: 100%;
+        height: 28%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+        .section1{
+            width: 45%;
+            height: 97%;
+            font-size: 60pt;
+            color: white;
+            background-image: url(./casa3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .section2{
+            width: 40%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+            .section21{
+                height: 20%;
+                width: 100%;
+                color: black;
+                font-size: 29pt;
+                margin-top: 100px;
+                margin-left: 60px;
+            }
+            .section22{
+                height: 10%;
+                width: 90%;
+                color: rgb(7, 7, 197);
+                font-size: 25pt;
+                margin-top: 25px;
+            }
+            .section23{
+                height: 50%;
+                width: 90%;
+                color: black;
+                font-size: 20pt;
+                margin-top: 50px;
+            }
+           
+    .separacion{
+        width: 100%;
+        height: 4%;
+        background-color: rgb(7, 7, 197);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+        .separacion1{
+            width: 100%;
+            height: 100%;
+            color: white;
+            font-size: 30pt;
+            margin-left: 365px;
+            margin-top: 15px;
+        }   
+    .equipo{
+        width: 100%;
+        height: 63%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .equipo1{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: row;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+            .equipo11{
+                width: 20%;
+                height: 100%;
+                background-image: url(./jose.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 60px;
+            }
+            .equipo12{
+                width: 50%;
+                height: 100%;
+                font-size: 14pt;
+                color: black;
+            }
+        .equipo2{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+            .equipo21{
+                width: 20%;
+                height: 100%;
+                background-image: url(./menchu.png);                    background-repeat: no-repeat;
+                background-size: contain;
+                margin-right: 10px;
+                }
+                .equipo22{
+                width: 50%;
+                height: 100%;
+                font-size: 14pt;
+                margin-right: 20px;
+                color: rgb(7, 7, 197);
+                margin-right: 30px;
+                }
+            .equipo3{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                flex-direction: row;
+                justify-content: row;                    align-items: center;
+                flex-wrap: wrap;
+            }
+                .equipo31{
+                    width: 20%;
+                    height: 100%;
+                    background-image: url(./dani.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-left: 60px;
+                }
+                .equipo32{
+                    width: 50%;
+                    height: 100%;
+                    font-size: 14pt;
+                    color: black;
+                }
+            .equipo4{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                flex-direction: row-reverse;
+                flex-wrap: wrap;
+            }
+                .equipo41{
+                    width: 20%;
+                    height: 100%;
+                    background-image: url(./layla.png);                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-right: 10px;
+                }
+                .equipo42{
+                    width: 50%;
+                    height: 100%;
+                    font-size: 14pt;
+                    margin-right: 20px;
+                    color: rgb(7, 7, 197);
+                    margin-right: 30px;
+                }
+            .equipo5{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                flex-direction: row;
+                justify-content: row;                    align-items: center;
+                flex-wrap: wrap;
+            }
+                .equipo51{
+                    width: 20%;
+                    height: 100%;
+                    background-image: url(./pablo.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-left: 60px;
+                }
+                .equipo52{
+                    width: 50%;
+                    height: 100%;
+                    font-size: 14pt;
+                    color: black;
+                }    
+        
+    .social{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; 
+           
+    }
+        .vacio{
+            width: 35%;
+            height: 100%;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around;
+            align-items: center; 
+            background-color: rgb(7, 7, 197);
+
+    }
+        .vacio1{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around;
+            align-items: center; 
+            background-color: rgb(7, 7, 197);
+
+        }
+        .vacio2{
+            width: 35%;
+            height: 100%;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around;
+            align-items: center; 
+            background-color: rgb(7, 7, 197);
+
+        }
