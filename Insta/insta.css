@@ -1,0 +1,480 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+main{
+    width: 100vw;
+    height: 110vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.total{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .upper{
+        width: 70%;
+        height: 73%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+        .mobile{
+            width: 40%;
+            height: 100%;
+            background-image: url(./insta.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .login{
+            width: 33%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;       
+        }
+            .login1{
+                width: 100%;
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;  
+                margin-bottom: 10px;     
+                border: 1px solid rgb(219, 219, 219);
+            }
+                .login11{
+                    width: 55%;
+                    height: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                    .login111{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url(./logo.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        margin-left: 13px;
+                        margin-top: 10px;
+                    }
+                .login12{
+                    width: 80%;
+                    height: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-evenly ;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                .login121{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-evenly ;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                    .busqueda{
+                        background-color: transparent;
+                        color: black;
+                        width: 100%;
+                        height: 28%;
+                        padding: 7px;
+                        border-radius: 3px;
+                        border: 1px solid rgb(219, 219, 219);
+                        font-size: 9pt;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                }
+                    .but{
+                        background-color:#55bffd ;
+                        color: white;
+                        width: 100%;
+                        padding: 6px;
+                        border-radius: 8px;
+                        margin-top: 10px;
+                        border: transparent;
+                        font-size: 11pt;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                    }
+                .login13{
+                    width: 80%;
+                    height: 10%;
+                    display: flex;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+                    .login131{
+                        border: 1pt solid rgb(219, 219, 219);
+                        width: 41%;
+                        margin-right: 6px;
+                        
+                    }
+                    .login132{
+                        font-size: 9pt;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color:rgb(151, 149, 149) ;
+                        font-weight: 600;
+                        
+                    }
+                    .login133{
+                        border: 1pt solid rgb(219, 219, 219);
+                        width: 41%;
+                        margin-left: 6px;
+                    }
+                .login14{
+                    width: 60%;
+                    height: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .login141{
+                        width: 95%;
+                        height: 80%;
+                        background-image: url(./face.png);
+                        background-color: transparent;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        margin-bottom: 20px;
+                }
+                .login15{
+                    width: 50%;
+                    height: 10%;
+                    display: flex;
+                    margin-bottom: 10px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .login151{
+                        font-size: 9pt;
+                        color: rgb(31, 34, 204);
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-bottom: 10px;
+                    }
+            .login2{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                border: 1px solid rgb(219, 219, 219);
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+                .login21{
+                    font-size: 11pt;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .login22{
+                    font-size:  11pt;
+                    color: #0095f6;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-left: 3px;
+                    font-weight: 520;
+                }
+            .login3{
+                width: 100%;
+                height: 5%;
+                font-size:  10pt;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 13px;
+                margin-left: 230px;
+            }
+            .login4{
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+                .login41{
+                    width: 40%;
+                    height: 88%;
+                    border-radius: 6px;
+                    background-color: black;
+                    background-image: url(./google.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-left: 40px;
+                    
+                }
+                .login42{
+                    width: 30%;
+                    height: 88%;
+                    background-image: url(./microsoft.png);
+                    background-color: black;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-right: 40px;
+                }
+    .links{
+        width: 70%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+    }
+        a{
+            width: 100%;
+            height: 80%;
+            color: rgb(134, 133, 133);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9pt;
+            text-decoration: none;
+        }
+    .idiomas{
+        width: 70%;
+        height: 3%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+        .idiomas1{
+            display: inline-block;
+            position: relative;
+            color: rgb(134, 133, 133);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9pt;
+            text-decoration: none;
+            
+        }
+            select{
+                color: rgb(134, 133, 133);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 9pt;
+                border: transparent;
+                width: 92%;
+            }
+        .idiomas2{
+            color: rgb(134, 133, 133);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9pt;
+        }
+
+    /* media Query --> @media screen and (max-width:1300px)/ */
+
+    @media screen and (max-width:1300px) {
+       .links{
+        flex-wrap: wrap;
+       } 
+       .upper{
+        width: 80%;
+       }
+       .login3{
+        margin-left: 180px;
+       }
+       .login15{width: 60%;
+    }
+    }
+    @media screen and (max-width:1200px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 85%;
+        }
+        .login3{
+         margin-left: 175px;
+        }
+        .login15{width: 65%;
+     }
+    }
+    @media screen and (max-width:1100px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 90%;
+        }
+        .login3{
+         margin-left: 170px;
+        }
+        .login15{width: 70%;
+        }
+     }
+     @media screen and (max-width:1000px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 100%;
+        }
+        .login3{
+         margin-left: 160px;
+        }
+        .login15{width: 75%;
+     }
+    }
+    @media screen and (max-width:870px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 110%;
+        }
+        .login3{
+         margin-left: 150px;
+        }
+        .login15{width: 75%;
+        }
+        .mobile{
+            display: none;
+        }
+    }
+    @media screen and (max-width:800px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 120%;
+        }
+        .login3{
+         margin-left: 140px;
+        }
+        .login15{width: 75%;
+        }
+        .login41{
+            width: 40%;
+            height: 80%;
+        }
+        .login42{
+            width:30% ;
+            height: 80%;
+        }    
+            
+    }
+    @media screen and (max-width:650px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 130%;
+        }
+        .login3{
+         margin-left: 130px;
+        }
+        .login15{width: 80%;
+        }
+        .login41{
+            width: 40%;
+            height: 80%;
+        }
+        .login42{
+            width:30% ;
+            height: 80%;
+        }    
+        .idiomas{
+            margin-top: 50px;
+        }
+    }
+    @media screen and (max-width:500px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 140%;
+        }
+        .login3{
+         margin-left: 100px;
+        }
+        .login15{width: 90%;
+        }
+        .login41{
+            width: 40%;
+            height: 80%;
+        }
+        .login42{
+            width:30% ;
+            height: 80%;
+        }    
+        .idiomas{
+            margin-top: 50px;
+        }
+        .login21{
+            font-size: 9pt;
+        }
+        .login22{
+            font-size: 9pt;
+        }
+    }
+    @media screen and (max-width:350px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 150%;
+        }
+        .login3{
+         margin-left: 40px;
+        }
+        .login15{width: 100%;
+        }
+        .login41{
+            width: 50%;
+            height: 80%;
+        }
+        .login42{
+            width:40% ;
+            height: 80%;
+        }    
+        .idiomas{
+            margin-top: 80px;
+        }
+    }
+    @media screen and (max-width:350px) {
+        .links{
+         flex-wrap: wrap;
+        } 
+        .upper{
+         width: 170%;
+        }
+        .login3{
+         margin-left: 20px;
+        }
+        .login15{width: 100%;
+        }
+        .login41{
+            width: 50%;
+            height: 80%;
+        }
+        .login42{
+            width:40% ;
+            height: 80%;
+        }    
+        .idiomas{
+            margin-top: 80px;
+        }
+    }
+

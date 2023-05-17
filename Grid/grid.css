@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* ////////////RETO1//////////// */
+
+
+.grid{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 600px 300px 600px;
+    grid-template-rows: 350px 350px;
+}
+.a{
+    background-color: rgb(198, 250, 115);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.b{
+    background-color: rgb(250, 187, 115);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.c{
+    background-color: rgb(226, 73, 26);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.d{
+    background-color: rgb(201, 14, 8);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.e{
+    background-color: rgb(15, 67, 240);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.f{
+    background-color: rgb(252, 235, 1);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+} 
+/* ///////////RETO2///////////// */
+
+/* .grid{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr; 
+}
+.a{
+    background-color: rgb(200, 255, 0);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.b{
+    background-color: rgb(8, 8, 8);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.c{
+    background-color: rgb(200, 255, 0);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.d{
+    background-color: rgb(3, 3, 3);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.e{
+    background-color: rgb(200, 255, 0);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+}
+.f{
+    background-color: rgb(7, 7, 7);
+    color:white ;
+    font-size: x-large;
+    text-align: center;
+} */
+/* ///////////RETO3/////////// */
+
+/* .nombradas{
+    display: grid;
+    grid-template-columns: [x0]1050px [x1]480px [x2];
+    grid-template-rows: [y0]80px [y1]550px [y2]80px [y3];
+}
+.header{
+    grid-column: x0 / x2;
+    grid-row: y0 / y1;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.middle{
+    display: grid;
+    grid-template-columns: [x0]15px [x1]700px [x2]5px [x3]315px [x4]15px [x5];
+    grid-template-rows: [y0]15px [y1]270px [y2]7px [y3] 245px [y4] 15px;
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+    background-color: rgb(24, 20, 246);
+}
+    .contenido{
+        grid-column: x1 / x4;
+        grid-row: y1 / y2;
+        color: white;
+        border: 1px solid white;
+        font-size: x-large;
+    }
+    .texto1{
+        grid-column: x1 / x2;
+        grid-row: y3 / y4;
+        color: white;
+        border: 1px solid white;
+    }
+    .texto2{
+        grid-column: x3 / x4;
+        grid-row: y3 / y4;
+        color: white;
+        border: 1px solid white;
+    }
+.right{
+    display: grid;
+    grid-template-columns: [x0]9px [x1]462px [x2] 9px [x3];
+    grid-template-rows: [y0]9px [y1]127.75px [y2]5px [y3]127.75px [y4]5px [y5]127.75px [y6] 5px[y7]127.75px [y8]9px [y9];
+    grid-column: x1 / x2;
+    grid-row: y1 / y2;
+    background-color: rgb(87, 240, 205);
+}
+    .menu{
+        grid-column: x1 / x2;
+        grid-row: y1 / y2;
+        color: white;
+        border: 2px solid rgb(5, 5, 5);
+        font-size: x-large;
+        text-align: center;
+    }
+    .menu1{
+        grid-column: x1 / x2;
+        grid-row: y3 / y4;
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    .menu2{
+        grid-column: x1 / x2;
+        grid-row: y5 / y6;
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    .menu3{
+        grid-column: x1 / x2;
+        grid-row: y7 / y8;
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+.down{ 
+    display: grid;
+    grid-template-columns: [x0]6px [x1]755px [x2]5px [x3]755px [x4]5px [x5] ;
+    grid-template-rows: [y0]5px [y1]70px [y2]5px [y3];
+    grid-column: x0 / x2;
+    grid-row: y2 / y3;
+    background-color: rgb(92, 48, 237);
+}
+    .footer{
+    grid-column: x1 / x2;
+    grid-row: y1 / y2;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    }
+    .contacto{
+        grid-column: x3 / x4;
+        grid-row: y1 / y2;
+        color: white;
+        text-align: center;
+        border: 2px solid black;
+    } */
+
+    /* /////////RETO4////////// */
+
+    /* .areas{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+
+        grid-template-areas:
+        "header header img"
+        "izquierda derecha derecha"
+        "izquierda derecha derecha"
+        "izquierda derecha derecha"
+        "izquierda derecha derecha"
+        "izquierda derecha derecha"
+        "footer footer footer";
+    }
+    .header{
+        grid-area: header;
+
+        background-color: rgb(191, 50, 50) ;
+        color: white;
+        text-align: center;
+    }
+    .img{
+        grid-area: img;
+
+        background-color: rgb(70, 18, 18);
+        color: white;
+        text-align: center;
+    }
+    .izquierda{
+        grid-area: izquierda;
+        background-color: orangered;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-areas: 
+        "izquierda1"
+        "vacio"
+        "izquierda2";
+    }
+        .izquierda1{
+            grid-area: izquierda1;
+
+            background-color: white;
+            color: orangered;
+            text-align: center;
+            margin: 15px;
+        }
+        .vacio{
+            grid-area: vacio;
+
+            background-color: transparent;
+        }
+        .izquierda2{
+            grid-area: izquierda2;
+
+            background-color: white;
+     c       color: orangered;
+            text-align: center;
+            margin: 15px;
+        }
+    .derecha{
+        grid-area: derecha;
+        background-color: rgb(224, 30, 0);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-areas: 
+        "contenido"
+        "texto";
+    }
+        .contenido{
+            grid-area: contenido;
+    
+            border: 1px solid white;
+                text-align: center;
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 2px;
+                color: white;
+        }
+        .texto{
+            grid-area: texto;
+    
+            border: 1px solid white;
+            text-align: center;
+            margin-top: 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            color: white;
+            }
+    .footer{
+        grid-area: footer;
+
+        background-color: rgb(117, 13, 13) ;
+        color: white;
+        text-align: center;
+    } */
