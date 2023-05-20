@@ -1,0 +1,49 @@
+[
+{
+    "precio" :20,
+    "id": 1,
+    "title": "Pantalon suelto gris",
+    "thumbnailUrl":"./pantalones_tallealto.png"  
+},
+{
+    "precio" :18,
+    "id": 2,
+    "title": "Vestido Túnico",
+    "thumbnailUrl":"./vestido_tunico.png"  
+},
+{
+    "precio" :12,
+    "id": 3,
+    "title": "Falda Mid Print",
+    "thumbnailUrl":"./falda_print.png"  
+},
+{
+    "precio" :22,
+    "id": 4,
+    "title": "Cardigan Largo Rayas",
+    "thumbnailUrl":"./cardigan_largo_rayas.png"  
+},
+{
+    "precio" :17,
+    "id": 5,
+    "title": "Falda Print Zebra",
+    "thumbnailUrl":"./falda_mini_zebra.png"  
+},
+{
+    "precio" :25,
+    "id": 6,
+    "title": "Mono Overo",
+    "thumbnailUrl":"./mono_overol.png"  
+},
+{
+    "precio" :18,
+    "id": 7,
+    "title": "Vestido Jersey",
+    "thumbnailUrl":"./vestido_jersey.png"  
+},
+{
+    "precio" :16,
+    "id": 8,
+    "title": "Pantalon ancho",
+    "thumbnailUrl":"./pantalon_ancho.png"  
+}]
