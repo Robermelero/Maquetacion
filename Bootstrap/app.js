@@ -51,14 +51,16 @@ jQuery(() => {
     })
     $(".btn").on("click", () => {
         let suma=0
+        let imprimir =""
         for( let i=0 ; i<carrito.length; i++){
-            suma += carrito[i].price
-            $(".modal-body").append(`<li>${carrito[i].title} :    ${carrito[i].price} €</li>`)
-            $(".total").html(`TOTAL COMPRA = ${suma} €`)
+
+            imprimir +=`<li>${carrito[i].title}:${carrito[i].price} €</li>`;
+            suma +=  carrito[i].price
+            $(".modal-body").html(imprimir);
+            $(".total").html(`TOTAL COMPRA = ${suma}`);
         }
-    })
-    
-    
+    })    
 })
+
 
 
